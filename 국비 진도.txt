@@ -1,0 +1,17 @@
+	0220
+플레이어 데미지 받을 때 화면을 깜빡이기(Blood Screen)
+씬이동 -> 마지막 씬에 갔을 때 KillCount 표시
+	게임 종료할지 다시할지 선택
+OffMeshLink: 끊어진 매쉬를 잇는다(쫓아올 때 언덕 뛰어내리기)
+NavMeshObstacle: 장애물을 피해다님
+	0222
+github 저장소 생성 -> github 홈페이지
+github 저장소 클론 -> source tree
+commit(저장)
+Add(스테이지에 올리기)
+push
+git이란? version control sys
+	// 버전 관리 시스템
+add 스테이지에 올린다
+push 업로드
+https://github.com/sbn04043/helloAtentsUnity
