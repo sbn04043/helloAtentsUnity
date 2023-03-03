@@ -6,6 +6,7 @@ OffMeshLink: 끊어진 매쉬를 잇는다(쫓아올 때 언덕 뛰어내리기)
 NavMeshObstacle: 장애물을 피해다님
 	0222
 github 저장소 생성 -> github 홈페이지
+your profile -> 레포지토리
 github 저장소 클론 -> source tree
 commit(저장)
 Add(스테이지에 올리기)
@@ -15,3 +16,39 @@ git이란? version control sys
 add 스테이지에 올린다
 push 업로드
 https://github.com/sbn04043/helloAtentsUnity
+
+	0223
+crossfade(애니메이션 명, 시간)
+직전 동작애니메이션과 지금 애니메이션을 0.3초동안 혼합해
+부드러운 애니메이션을 만듦
+
+	0224
+c++: 전역이란 개념 X
+	구조체 class
+
+뷰포트: 모니터 기준으로(0.5, 0.5)는 중앙
+스크린 포인트: 
+magnitude: 거리 구하기 함수
+coroutine 함수
+blend: 부드럽게
+벡터 내적 외적 삼각함수 공부
+
+	0228
+플레이어: 레거시
+적: 메카닉
+총발 발사 방식
+  1. projectileMovement 오브젝트에 콜라이더 리지드 다는 방식
+	단점: 동적할당 했다가 소멸하는 방식
+	메모리 과부하가 일어날 수 있음
+	-> 게임이 느려짐
+	-> 오브젝트 풀링 방식을 사용(추후에 설명)
+  2. RayCast(광선 발사) 
+	메모리 부하 발생 X
+	물리를 적용하려면 일일히 스크립트 작성
+
+	0303
+깃허브 사용 방법
+Add: 스테이지 올리기
+Commit: save
+push: 저장소에 업로드
+코드 뭉치 버리기
